@@ -29,4 +29,6 @@ int main() {
   // recursion
   if(func(N, W, a)) cout << "Yes" << endl;
   else cout << "No" << endl;
+
+
 }
