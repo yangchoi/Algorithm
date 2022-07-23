@@ -6,3 +6,5 @@ gradlew
 gradle
 
 *.class
+
+.vscode

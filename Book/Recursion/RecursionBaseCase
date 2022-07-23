@@ -1,0 +1,17 @@
+// template for recursion function
+
+(return type) func(argument) {
+  if(base case) {
+    // basecase? 
+    // case for any other recursion function calling, just return in function.
+    // normally, N = 0
+    // if you don't handle it, infinite loop is happened.
+  }
+  // recursion is called
+  func(next argument) {
+    return response;
+    // Also, If recursion function is called
+    // it should be careful when argument is getting closer to basecase.
+    // that means, recursion never stop.
+  }
+}
