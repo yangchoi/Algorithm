@@ -3,15 +3,19 @@
         {
             "name": "Mac",
             "includePath": [
+                "${default}",
                 "${workspaceFolder}/**",
-                "/opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/tr1"
+                "/Library/Developer/CommandLineTools/usr/include/**"
             ],
             "defines": [],
-            "macFrameworkPath": [],
-            "compilerPath": "/opt/homebrew/bin/gcc-11",
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "macos-gcc-arm64"
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "Library/Frameworks"
+            ],
+            "compilerPath": "",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-x64"
         }
     ],
     "version": 4

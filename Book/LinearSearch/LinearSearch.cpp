@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// find target value 
+// find target value
 
 int main() {
   // input
